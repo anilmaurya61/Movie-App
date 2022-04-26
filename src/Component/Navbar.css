@@ -1,0 +1,8 @@
+.navbar{
+    /* background-color: blue; */
+    display: flex;
+    padding: 0.5rem;
+}
+h2{
+    margin-left: 2rem;
+}

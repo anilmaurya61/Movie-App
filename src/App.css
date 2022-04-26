@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+.banner-card{
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: relative;
+  height: 70vh;
+  color: white;
+}
+
+.banner-img{
+  height: 70vh;
+  width: 100%;
+}
+
+.banner-title{
+  position: absolute;
+  top: 43vh;
+  left: 5vw;
+}
+.banner-text{
+  position: absolute;
+  top: 51vh;
+  left: 5vw;
+}
+.movi-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movie-card{
+  width: 24%;
+  height: 40vh;
+  margin: 5px 2px 5px 2px;
+}
+.trending{
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card-img1{
+  height: 40vh;
+  width: 35;
+}
+.card1-title{
+  position: absolute;
+  width: 80%;
+  color: white;
+  margin-top: 1rem;
+  margin-left: .52rem;
+}
+.btn-wrapper{
+  position: absolute;
+  margin-top: 30vh;
+  margin-left: 15%;
+  text-align: center;
+  height: 2rem;
+  width: 70%;
+  border-radius: 3px;
+  opacity: 0;
+} 
+.sci{
+  transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+.movie-card:hover .sci{
+  transform: translateY(1px);
+	opacity: 1;
+}
+
